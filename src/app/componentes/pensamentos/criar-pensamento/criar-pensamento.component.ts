@@ -1,17 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-criar-pensamento',
   templateUrl: './criar-pensamento.component.html',
   styleUrls: ['./criar-pensamento.component.css']
 })
-export class CriarPensamentoComponent {
+export class CriarPensamentoComponent implements OnInit {
 
-  criarPensamento(){
-    alert("O pensamento foi criado")
+  pensamento = {
+    id: '1',
+    conteudo: 'Aprendendo Angular',
+    autoria: 'Dev',
+    modelo: 'modelo1'
   }
 
-  cancela(){
-    alert("Ação cancelada")
+  constructor() { }
+
+  ngOnInit(): void {
   }
+
+  criarPensamento() {
+    alert("Novo pensamento criado!")
+  }
+
+  cancela() {
+    alert("Ação cancelada!")
+  }
+
 }
