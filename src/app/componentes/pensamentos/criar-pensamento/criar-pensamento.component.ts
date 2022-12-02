@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class CriarPensamentoComponent {
 
+  criarPensamento(){
+    alert("O pensamento foi criado")
+  }
+
+  cancela(){
+    alert("Ação cancelada")
+  }
 }
