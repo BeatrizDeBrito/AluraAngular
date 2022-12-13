@@ -4,19 +4,36 @@
       "id": 1,
       "conteudo": "sdssds",
       "autoria": "dsdsds",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Persistindo os dados",
       "autoria": "testando",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
+      "id": 3,
       "conteudo": "Persistindo os dados",
       "autoria": "autoria",
       "modelo": "modelo1",
-      "id": 3
+      "favorito": true
+    },
+    {
+      "conteudo": "\"Volta o cão arrependido, com suas orelhas tão fartas, com seu osso roído e com o rabo entre as patas\" ",
+      "autoria": "Chaves",
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": 4
+    },
+    {
+      "conteudo": "Persistindo os dados",
+      "autoria": "dsdsds",
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 5
     }
   ]
 }
