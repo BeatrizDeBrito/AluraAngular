@@ -57,7 +57,7 @@ export class ListarPensamentoComponent implements OnInit {
       })
   }
 
-  recarrregarComponente(){
+  recarregarComponente(){
     this.favoritos = false;
     this.paginaAtual = 1;
 
