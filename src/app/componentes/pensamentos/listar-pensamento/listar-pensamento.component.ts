@@ -17,7 +17,7 @@ export class ListarPensamentoComponent implements OnInit {
   haMaisPensamentos: boolean = true;
   filtro: string = ''
   favoritos: boolean = false;
-  titulo: string = 'Meu'
+  titulo: string = 'Meu Mural'
 
   constructor(private service: PensamentoService, private router: Router) { }
 
